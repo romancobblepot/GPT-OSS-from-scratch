@@ -89,3 +89,5 @@ train_loss, val_loss = trainer(
     train_loader,
     val_loader
 )
+
+generate_new_text(model,device,prompt='how are you')
